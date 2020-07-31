@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+	<comment>common configuration</comment>
+	<!-- <entry key="jdbc.driverClass.master">org.mariadb.jdbc.Driver</entry> -->
+	<entry key="jdbc.driverClass.master">com.mysql.cj.jdbc.Driver</entry>
+	
+   	<!--Local MySql 연결정보 -->
+    <entry key="jdbc.url.master">jdbc:mysql://127.0.0.1:3306/petmily?serverTimezone=UTC</entry>
+    <entry key="jdbc.username.master">root</entry>
+    <entry key="jdbc.password.master">1111</entry> 
+    
+	<entry key="fileDirectoryPath">/petmily</entry>
+	<entry key="filePath">/upload/</entry>
+
+</properties> 

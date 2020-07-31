@@ -1,0 +1,86 @@
+@charset "UTF-8";
+
+/** @Ncomz common  V 0.7.1 | @Ncomz Design -  @mo @joo **/
+@font-face {
+  font-family: 'Noto Sans KR';
+  font-style: normal;
+  font-weight: 300;
+  src: url('../webfont/notokr-light.eot');
+  src: url('../webfont/notokr-light.eot?#iefix') format('embedded-opentype'),
+       url('../webfont/notokr-light.woff2') format('woff2'),
+       url('../webfont/notokr-light.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Noto Sans KR';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../webfont/notokr-regular.eot');
+  src: url('../webfont/notokr-regular.eot?#iefix') format('embedded-opentype'),
+       url('../webfont/notokr-regular.woff2') format('woff2'),
+       url('../webfont/notokr-regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Noto Sans KR';
+  font-style: normal;
+  font-weight: 500;
+  src: url('../webfont/notokr-medium.eot');
+  src: url('../webfont/notokr-medium.eot?#iefix') format('embedded-opentype'),
+       url('../webfont/notokr-medium.woff2') format('woff2'),
+       url('../webfont/notokr-medium.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Noto Sans KR';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../webfont/notokr-bold.eot');
+  src: url('../webfont/notokr-bold.eot?#iefix') format('embedded-opentype'),
+       url('../webfont/notokr-bold.woff2') format('woff2'),
+       url('../webfont/notokr-bold.woff') format('woff');
+}
+
+
+/* reset css */
+html,body{width:100%; height:100%;}
+html,body{font-size:13px;}/* 기본 폰트 크기 지정*/
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,form,fieldset,p,button,input,table{margin:0;padding:0; font-size:100%;}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,form,fieldset,p,button,input,table{font-family:'Noto Sans KR', 'Malgun Gothic', Dotum, 돋움, AppleSDGothicNeo, Helvetica, Arial, sans-serif !important;}
+body{*word-break:break-all;-ms-word-break:break-all; -webkit-text-size-adjust:none;/*모바일 가로보기시 글씨 크기 확대 방지*/ }
+img,fieldset,iframe{border:0 none}
+li{list-style:none}
+input,select,button{vertical-align:middle}
+img{vertical-align:top}
+i,em,address{font-style:normal}
+label,button{cursor:pointer}
+a,a:hover {text-decoration:none}
+label {font-weight:normal;}
+
+option{padding-right:6px}
+hr{display:none}
+legend{*width:0}
+table{border-collapse:collapse;border-spacing:0}
+input,textarea,button {-webkit-border-radius:0; border-radius:0;} /* 모바일 webkit 브라우져에서 input등 기본 속성 제거 */
+
+* {box-sizing:border-box;}
+
+::-webkit-scrollbar {width:10px; height:10px;;}
+::-webkit-scrollbar-button{} 
+::-webkit-scrollbar-track {background-color:#f1f1f1; border:none;  box-shadow:0; border-radius:3px;}
+::-webkit-scrollbar-track:horizontal {border-top:1px solid #fff;}
+::-webkit-scrollbar-thumb {background-color:rgba(0,0,0,0.2); border-radius:0px; border:0px solid #aaa;}
+::-webkit-scrollbar-corner{} 
+::-webkit-scrollbar-thumb:hover {background-color:rgba(0,0,0,0.4);}
+
+/* ie용 */
+body {
+ scrollbar-face-color: #b0b0b0; 
+ scrollbar-highlight-color: #a3a3a3;
+ scrollbar-shadow-color: #a3a3a3; 
+ scrollbar-3dlight-color: #a3a3a3;
+ scrollbar-arrow-color: #aaa; 
+ scrollbar-track-color: #e0e0e0;
+ scrollbar-darkshadow-color: #e0e0e0; 
+}
+

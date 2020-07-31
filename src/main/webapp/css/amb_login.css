@@ -1,0 +1,293 @@
+@charset "UTF-8";
+/** @AMB common  V 0.9.9 | @AMB Design -  @mo @shjoo @lhjoo **/
+
+/* **************** loginPage **************** */
+body.loginPage,
+body.loginPage .amb_admin_layout_temp_01 {height:100%; min-height:600px; min-width:600px; overflow:auto; background:none;} 
+body.loginPage .amb_admin_layout_temp_01 .contentWrap {overflow:hidden; background:none; min-height:100%; }
+body.loginPage .amb_admin_layout_temp_01 .header {display:none;}
+
+body.loginPage .amb_admin_layout_temp_01 .content {margin-left:0; height:100%; padding:0; min-height:100%;}
+
+body.loginPage .amb_admin_layout_temp_01 .loginPage    {position:absolute; top:50%; left:50%; width:500px; height:460px; margin-left:-250px; margin-top:-230px; z-index:1;}
+body.loginPage .amb_admin_layout_temp_01 .loginPage h1 {text-align:left; font-weight:normal; margin:0 0px 0 0px; background:none; }
+body.loginPage .amb_admin_layout_temp_01 .loginPage h1 span.title,
+body.loginPage .amb_admin_layout_temp_01 .loginPage h1 span.ex    {display:block; letter-spacing:-0.05em; font-weight:500; color:#000;}
+body.loginPage .amb_admin_layout_temp_01 .loginPage h1 span.title {width:auto; font-size:32px; line-height:40px;  margin-bottom:15px; font-weight:500; }
+body.loginPage .amb_admin_layout_temp_01 .loginPage h1 span.ex    {font-size:12px; padding:0 0 0 3px;}
+
+body.loginPage .amb_admin_layout_temp_01 .loginPage .loginBox {text-align:center; width:100%; margin:30px auto 0; padding:30px 30px; clear:both; background:rgba(0,0,0,0.4); border-width:1px; border-style:solid; border-color:rgba(0,0,0,0.3);}
+body.loginPage .amb_admin_layout_temp_01 .loginPage .loginBox input.id,
+body.loginPage .amb_admin_layout_temp_01 .loginPage .loginBox input.pw {width:100%; display:block; height:50px; line-height:50px; border:1px solid #00b3fe; border-radius:3px; margin-bottom:10px; font-size:18px; text-align:left; padding:0 30px;}
+body.loginPage .amb_admin_layout_temp_01 .loginPage .loginBox input.id:hover,
+body.loginPage .amb_admin_layout_temp_01 .loginPage .loginBox input.pw:hover,
+body.loginPage .amb_admin_layout_temp_01 .loginPage .loginBox input.id:focus,
+body.loginPage .amb_admin_layout_temp_01 .loginPage .loginBox input.pw:focus {border:2px solid #139ad3; background:#e1e1e1; outline:none;}
+
+body.loginPage .amb_admin_layout_temp_01 .loginPage .loginBox .loginSetting       {clear:both; overflow:hidden; margin:20px 0 0px; font-size:14px; line-height:15px; color:#fff;}
+body.loginPage .amb_admin_layout_temp_01 .loginPage .loginBox .loginSetting:after {display:block; content:''; height:0;}
+body.loginPage .amb_admin_layout_temp_01 .loginPage .loginBox .loginSetting a.underline {color:#000; text-decoration:underline; line-height:15px;}
+body.loginPage .amb_admin_layout_temp_01 .loginPage .loginBox .loginSetting .fr a.underline {line-height:20px;}
+
+body.loginPage .amb_admin_layout_temp_01 .loginPage .loginBox .loginBtn {margin-top:30px;}
+body.loginPage .amb_admin_layout_temp_01 .loginPage .loginBox .loginBtn a {width:100%; height:54px; font-size:18px; line-height:52px; font-weight:500;}
+body.loginPage .amb_admin_layout_temp_01 .loginPage .copyright  {margin-top:10px; text-align:center; opacity:0.7;}
+
+body.loginPage .amb_admin_layout_temp_01 .loginPage .selectLang {margin:20px 0 -30px 0; clear:both; overflow:hidden;}
+body.loginPage .amb_admin_layout_temp_01 .loginPage .selectLang .amb_btnstyle {opacity:0.5; background:rgba(0,0,0,0.4); border-width:1px; border-style:solid; border-color:rgba(0,0,0,0.3); height:40px; line-height:38px;}
+body.loginPage .amb_admin_layout_temp_01 .loginPage .selectLang .amb_btnstyle {color:#fff;  font-weight:300;}
+body.loginPage .amb_admin_layout_temp_01 .loginPage .selectLang .amb_btnstyle.active {opacity:1.0;  font-weight:400;}
+
+
+/* login style01 */
+body.loginPage .amb_admin_layout_temp_01 .content.loginStyle01 {overflow:hidden;}
+
+body.loginPage .amb_admin_layout_temp_01 .content.loginStyle01 .loginBgBox {display:block; position:absolute; z-index:-1;  width:100%; height:100%;}
+body.loginPage .amb_admin_layout_temp_01 .content.loginStyle01 .loginBg    {display:block; position:absolute; z-index:0; width:100%; height:100%; background-repeat:no-repeat; background-position:center center; background-size:cover; }
+body.loginPage .amb_admin_layout_temp_01 .content.loginStyle01 .loginBg.bg01 {background-image:url('../img/login_bg.png'); }
+body.loginPage .amb_admin_layout_temp_01 .content.loginStyle01 .loginBg.bg02 {background-image:url('../img/login_bg2.png'); }
+body.loginPage .amb_admin_layout_temp_01 .content.loginStyle01 .loginBg.bg03 {background-image:url('../img/login_bg3.png'); }
+
+body.loginPage .amb_admin_layout_temp_01 .content.loginStyle01 .bgGradient {display:block;  position:fixed; z-index:0; width:100%; height:100%; opacity:0.2; z-index:1;}
+
+body.loginPage .amb_admin_layout_temp_01 .content.loginStyle01 .loginPage  {}
+body.loginPage .amb_admin_layout_temp_01 .content.loginStyle01 .loginPage h1 span.title,
+body.loginPage .amb_admin_layout_temp_01 .content.loginStyle01 .loginPage h1 span.ex {color:#fff;}
+body.loginPage .amb_admin_layout_temp_01 .content.loginStyle01 .loginPage .loginBox {border-radius:3px;}
+body.loginPage .amb_admin_layout_temp_01 .content.loginStyle01 .loginPage .loginBox .loginSetting a.underline {color:#ddd;}
+
+body.loginPage .amb_admin_layout_temp_01 .content.loginStyle01 .loginPage .selectLang {margin:20px 0 -30px 0; border-radius:3px 3px 0 0;}
+body.loginPage .amb_admin_layout_temp_01 .content.loginStyle01 .loginPage .selectLang .amb_btnstyle {opacity:1.0; background:rgba(0,0,0,0.4); float:left; border-radius:0; width:33.3%; height:auto; line-height:18px; font-size:15px; padding:18px 20px !important; border-bottom:none; border-right-width:0; color:rgba(255,255,255,0.5); }
+body.loginPage .amb_admin_layout_temp_01 .content.loginStyle01 .loginPage .selectLang .amb_btnstyle:last-child {border-right-width:1px;}
+body.loginPage .amb_admin_layout_temp_01 .content.loginStyle01 .loginPage .selectLang .amb_btnstyle.active {opacity:1.0; background:rgba(0,0,0,0.6); color:rgba(255,255,255,1.0);}
+
+body.loginPage .amb_admin_layout_temp_01 .content.loginStyle01 .loginPage .selectLang ~ .loginBox {border-radius:0px 0px 3px 3px;}
+
+/* login style02 */
+body.loginPage .amb_admin_layout_temp_01 .content.loginStyle02 {}
+
+body.loginPage .amb_admin_layout_temp_01 .content.loginStyle02 .loginBgBox {display:block; position:absolute; z-index:-1;  width:100%; height:100%;}
+body.loginPage .amb_admin_layout_temp_01 .content.loginStyle02 .loginBg    {display:block; position:absolute; z-index:0; width:100%; height:100%; background-repeat:no-repeat; background-position:center center; background-size:cover; }
+body.loginPage .amb_admin_layout_temp_01 .content.loginStyle02 .loginBg.bg01 {background-image:url('../img/login_bg3.png'); }
+body.loginPage .amb_admin_layout_temp_01 .content.loginStyle02 .loginBg.bg02 {background-image:url('../img/login_bg2.png'); }
+body.loginPage .amb_admin_layout_temp_01 .content.loginStyle02 .loginBg.bg03 {background-image:url('../img/login_bg.png'); }
+body.loginPage .amb_admin_layout_temp_01 .content.loginStyle02 .bgGradient {display:block;  position:fixed; z-index:0; width:100%; height:100%; opacity:0.3; z-index:1;} 
+
+body.loginPage .amb_admin_layout_temp_01 .content.loginStyle02 .loginPage  {width:400px; height:auto; }
+body.loginPage .amb_admin_layout_temp_01 .content.loginStyle02 .loginPage h1 {padding:20px; text-align:center; background:rgba(0,0,0,0.5);  border-width:1px; border-style:solid solid none solid; border-color:rgba(0,0,0,0.3);}
+body.loginPage .amb_admin_layout_temp_01 .content.loginStyle02 .loginPage h1 span.title,
+body.loginPage .amb_admin_layout_temp_01 .content.loginStyle02 .loginPage h1 span.ex {color:#fff; opacity:0.8;}
+body.loginPage .amb_admin_layout_temp_01 .content.loginStyle02 .loginPage h1 span.title {font-size:28px; opacity:1.0;}
+body.loginPage .amb_admin_layout_temp_01 .content.loginStyle02 .loginPage .loginBox {border-radius:0px; margin-top:0;}
+body.loginPage .amb_admin_layout_temp_01 .content.loginStyle02 .loginPage .loginBox input.id {border-radius:3px 3px 0px 0px; margin-bottom:0px;  border-color:#fff; border-bottom:1px solid rgba(0,0,0,0.2);}
+body.loginPage .amb_admin_layout_temp_01 .content.loginStyle02 .loginPage .loginBox input.pw {border-radius:0px 0px 3px 3px; margin-bottom:10px; border-color:#fff;}
+body.loginPage .amb_admin_layout_temp_01 .content.loginStyle02 .loginPage .loginBox input.id:hover,
+body.loginPage .amb_admin_layout_temp_01 .content.loginStyle02 .loginPage .loginBox input.pw:hover {border:none;}
+body.loginPage .amb_admin_layout_temp_01 .content.loginStyle02 .loginPage .loginBox input.id:focus,
+body.loginPage .amb_admin_layout_temp_01 .content.loginStyle02 .loginPage .loginBox input.pw:focus {border:none; background:rgba(0,0,0,0.4); color:#fff;}
+body.loginPage .amb_admin_layout_temp_01 .content.loginStyle02 .loginPage .loginBox .loginSetting a.underline {color:#ddd;}
+
+body.loginPage .amb_admin_layout_temp_01 .content.loginStyle02 .loginPage .selectLang {margin:0px 0 0px 0;}
+body.loginPage .amb_admin_layout_temp_01 .content.loginStyle02 .loginPage .selectLang .amb_btnstyle {opacity:1.0; background:rgba(0,0,0,0.6); float:left; width:33.3%; border-radius:0; height:auto; line-height:18px; font-size:15px; padding:12px 20px !important; border-bottom:none; border-right-width:0; color:rgba(255,255,255,0.4);}
+body.loginPage .amb_admin_layout_temp_01 .content.loginStyle02 .loginPage .selectLang .amb_btnstyle.active {opacity:1.0; background:rgba(0,0,0,0.8); color:rgba(255,255,255,1.0); font-weight:400;}
+
+/* login style03 */
+body.loginPage .amb_admin_layout_temp_01 .content.loginStyle03 {min-width:900px;}
+
+body.loginPage .amb_admin_layout_temp_01 .content.loginStyle03 .loginBgBox {display:block; position:absolute; z-index:-1;  width:100%; height:100%;}
+body.loginPage .amb_admin_layout_temp_01 .content.loginStyle03 .loginBg    {display:block; position:absolute; z-index:0; width:100%; height:100%; background-repeat:no-repeat; background-position:center center; background-size:cover; }
+body.loginPage .amb_admin_layout_temp_01 .content.loginStyle03 .loginBg.bg01 {background-image:url('../img/login_bg2.png'); }
+body.loginPage .amb_admin_layout_temp_01 .content.loginStyle03 .loginBg.bg02 {background-image:url('../img/login_bg3.png'); }
+body.loginPage .amb_admin_layout_temp_01 .content.loginStyle03 .loginBg.bg03 {background-image:url('../img/login_bg.png'); }
+body.loginPage .amb_admin_layout_temp_01 .content.loginStyle03 .bgGradient {display:block;  position:fixed; z-index:0; width:100%; height:100%; opacity:0.3; z-index:1;} 
+
+body.loginPage .amb_admin_layout_temp_01 .content.loginStyle03 .loginDetail{width:60%; float:left; height:100%; padding:100px 150px 100px 140px; z-index:2; position:relative;}
+body.loginPage .amb_admin_layout_temp_01 .content.loginStyle03 .loginPage  {width:40%; float:right; min-width:300px; height:100%; z-index:2; position:relative; left:auto; top:0; right:0; margin:0 0 0 0 !important; background:rgba(0,0,0,0.6); padding:60px 80px;}
+
+body.loginPage .amb_admin_layout_temp_01 .content.loginStyle03 .loginDetail h1 {text-align:left; background:transparent;  border:none; padding:0px 0 30px; color:#fff;}
+body.loginPage .amb_admin_layout_temp_01 .content.loginStyle03 .loginDetail h1 .title {font-size:32px; opacity:1.0; font-weight:normal;}
+body.loginPage .amb_admin_layout_temp_01 .content.loginStyle03 .loginDetail .contText {color:#fff; font-size:14px; line-height:1.8em; margin-top:40px; opacity:0.9; font-weight:100; z-index:2;}
+body.loginPage .amb_admin_layout_temp_01 .content.loginStyle03 .loginDetail .canvasBg {position:absolute; width:100%; height:100%; z-index:0; top:0; left:0; opacity:0.7;}
+
+body.loginPage .amb_admin_layout_temp_01 .content.loginStyle03 .loginPage h1 {text-align:left; background:transparent;  border:none; padding:35px 0 30px;}
+body.loginPage .amb_admin_layout_temp_01 .content.loginStyle03 .loginPage h1 span.title,
+body.loginPage .amb_admin_layout_temp_01 .content.loginStyle03 .loginPage h1 span.ex {color:#fff; opacity:0.8;}
+body.loginPage .amb_admin_layout_temp_01 .content.loginStyle03 .loginPage h1 span.title {font-size:28px; opacity:1.0;}
+body.loginPage .amb_admin_layout_temp_01 .content.loginStyle03 .loginPage .loginBox {border-radius:0px; margin-top:0; background:transparent;  border:none; padding:30px 0;}
+body.loginPage .amb_admin_layout_temp_01 .content.loginStyle03 .loginPage .loginBox .loginSetting a.underline {color:#ddd;}
+body.loginPage .amb_admin_layout_temp_01 .content.loginStyle03 .loginPage .copyright  {text-align:left; opacity:0.3; color:#fff;}
+body.loginPage .amb_admin_layout_temp_01 .content.loginStyle03 .loginPage .loginBox input.id,
+body.loginPage .amb_admin_layout_temp_01 .content.loginStyle03 .loginPage .loginBox input.pw {}
+body.loginPage .amb_admin_layout_temp_01 .content.loginStyle03 .loginPage .loginBox input.id:hover,
+body.loginPage .amb_admin_layout_temp_01 .content.loginStyle03 .loginPage .loginBox input.pw:hover {}
+body.loginPage .amb_admin_layout_temp_01 .content.loginStyle03 .loginPage .loginBox input.id:focus,
+body.loginPage .amb_admin_layout_temp_01 .content.loginStyle03 .loginPage .loginBox input.pw:focus {background:#fff; outline:none; opacity:1.0;}
+
+body.loginPage .amb_admin_layout_temp_01 .content.loginStyle03 .loginPage .loginBox .loginBtn {margin-top:50px;}
+
+body.loginPage .amb_admin_layout_temp_01 .content.loginStyle03 .loginPage .selectLang {margin:0px 0 -10px 0;}
+body.loginPage .amb_admin_layout_temp_01 .content.loginStyle03 .loginPage .selectLang .amb_btnstyle {opacity:1.0; background:rgba(0,0,0,0.4); float:none; height:auto; line-height:18px; font-size:15px; padding:12px 30px !important; color:rgba(255,255,255,0.4); border-radius:3px;}
+body.loginPage .amb_admin_layout_temp_01 .content.loginStyle03 .loginPage .selectLang .amb_btnstyle.active {opacity:1.0; background:rgba(0,0,0,0.6); color:rgba(255,255,255,1.0); font-weight:400;}
+
+
+/* login style04 */
+body.loginPage .amb_admin_layout_temp_01 .content.loginStyle04 {min-width:900px;}
+
+body.loginPage .amb_admin_layout_temp_01 .content.loginStyle04 .loginBgBox {display:block; position:absolute; z-index:-1;  width:100%; height:100%;}
+body.loginPage .amb_admin_layout_temp_01 .content.loginStyle04 .loginBg    {display:block; position:absolute; z-index:0; width:100%; height:100%; background-repeat:no-repeat; background-position:center center; background-size:cover; }
+body.loginPage .amb_admin_layout_temp_01 .content.loginStyle04 .loginBg.bg01 {background:#000; }
+body.loginPage .amb_admin_layout_temp_01 .content.loginStyle04 .loginBg.bg02 {background:#171335; }
+body.loginPage .amb_admin_layout_temp_01 .content.loginStyle04 .loginBg.bg03 {background:#340f26; }
+body.loginPage .amb_admin_layout_temp_01 .content.loginStyle04 .bgGradient {display:block;  position:fixed; z-index:0; width:100%; height:100%; opacity:0.4; z-index:1;} 
+
+body.loginPage .amb_admin_layout_temp_01 .content.loginStyle04 .loginDetail{width:60%; float:left; height:100%; padding:100px 150px 100px 140px; z-index:2; position:relative;}
+body.loginPage .amb_admin_layout_temp_01 .content.loginStyle04 .loginPage  {width:40%; float:right; min-width:300px; height:100%; z-index:2; position:relative; left:auto; top:0; right:0; margin:0 0 0 0 !important; background:rgba(0,0,0,0.4); padding:60px 80px;}
+
+body.loginPage .amb_admin_layout_temp_01 .content.loginStyle04 .loginDetail h1 {text-align:left; background:transparent;  border:none; padding:0px 0 30px; color:#fff;}
+body.loginPage .amb_admin_layout_temp_01 .content.loginStyle04 .loginDetail h1 .title {font-size:32px; opacity:1.0; font-weight:normal;}
+body.loginPage .amb_admin_layout_temp_01 .content.loginStyle04 .loginDetail .contText {color:#fff; font-size:14px; line-height:1.8em; margin-top:40px; opacity:0.9; font-weight:100; z-index:2;}
+body.loginPage .amb_admin_layout_temp_01 .content.loginStyle04 .loginDetail .canvasBg {position:absolute; width:100%; height:100%; z-index:0; top:0; left:0; opacity:1.0; overflow:hidden;}
+
+body.loginPage .amb_admin_layout_temp_01 .content.loginStyle04 .loginPage h1 {text-align:left; background:transparent;  border:none; padding:35px 0 30px;}
+body.loginPage .amb_admin_layout_temp_01 .content.loginStyle04 .loginPage h1 span.title,
+body.loginPage .amb_admin_layout_temp_01 .content.loginStyle04 .loginPage h1 span.ex {color:#fff; opacity:0.8;}
+body.loginPage .amb_admin_layout_temp_01 .content.loginStyle04 .loginPage h1 span.title {font-size:28px; opacity:1.0;}
+body.loginPage .amb_admin_layout_temp_01 .content.loginStyle04 .loginPage .loginBox {border-radius:0px; margin-top:0; background:transparent;  border:none; padding:30px 0;}
+body.loginPage .amb_admin_layout_temp_01 .content.loginStyle04 .loginPage .loginBox .loginSetting a.underline {color:#ddd;}
+body.loginPage .amb_admin_layout_temp_01 .content.loginStyle04 .loginPage .copyright  {text-align:left; opacity:0.3; color:#fff;}
+body.loginPage .amb_admin_layout_temp_01 .content.loginStyle04 .loginPage .loginBox input.id,
+body.loginPage .amb_admin_layout_temp_01 .content.loginStyle04 .loginPage .loginBox input.pw {}
+body.loginPage .amb_admin_layout_temp_01 .content.loginStyle04 .loginPage .loginBox input.id:hover,
+body.loginPage .amb_admin_layout_temp_01 .content.loginStyle04 .loginPage .loginBox input.pw:hover {}
+body.loginPage .amb_admin_layout_temp_01 .content.loginStyle04 .loginPage .loginBox input.id:focus,
+body.loginPage .amb_admin_layout_temp_01 .content.loginStyle04 .loginPage .loginBox input.pw:focus {background:#fff; outline:none; opacity:1.0;}
+
+body.loginPage .amb_admin_layout_temp_01 .content.loginStyle04 .loginPage .loginBox .loginBtn {margin-top:50px;}
+
+body.loginPage .amb_admin_layout_temp_01 .content.loginStyle04 .loginPage .selectLang {margin:0px 0 -10px 0;}
+body.loginPage .amb_admin_layout_temp_01 .content.loginStyle04 .loginPage .selectLang .amb_btnstyle {opacity:1.0; background:rgba(0,0,0,0.4); float:none; height:auto; line-height:18px; font-size:15px; padding:12px 30px !important; color:rgba(255,255,255,0.4); border-radius:3px;}
+body.loginPage .amb_admin_layout_temp_01 .content.loginStyle04 .loginPage .selectLang .amb_btnstyle.active {opacity:1.0; background:rgba(0,0,0,0.6); color:rgba(255,255,255,1.0); font-weight:400; border-color:rgba(255,255,255,0.2);}
+
+
+
+/* login style05 */
+body.loginPage .amb_admin_layout_temp_01 .content.loginStyle05 {min-width:900px;}
+
+body.loginPage .amb_admin_layout_temp_01 .content.loginStyle05 .loginBgBox {display:block; position:absolute; z-index:-1;  width:100%; height:100%;}
+body.loginPage .amb_admin_layout_temp_01 .content.loginStyle05 .loginBg    {display:block; position:absolute; z-index:0; width:100%; height:100%; background-repeat:no-repeat; background-position:center center; background-size:cover; }
+body.loginPage .amb_admin_layout_temp_01 .content.loginStyle05 .loginBg.bg01 {background:#171335; }
+body.loginPage .amb_admin_layout_temp_01 .content.loginStyle05 .loginBg.bg02 {background:#000000; }
+body.loginPage .amb_admin_layout_temp_01 .content.loginStyle05 .loginBg.bg03 {background:#340f26; }
+body.loginPage .amb_admin_layout_temp_01 .content.loginStyle05 .bgGradient {display:block;  position:fixed; z-index:0; width:100%; height:100%; opacity:0.3; z-index:1;} 
+
+body.loginPage .amb_admin_layout_temp_01 .content.loginStyle05 .loginDetail{width:100%; float:normal; height:100%; padding:100px 150px 100px 140px; z-index:2; position:relative;}
+body.loginPage .amb_admin_layout_temp_01 .content.loginStyle05 .loginPage  {position:absolute; top:50%; left:50%; width:500px; height:500px; margin-left:-250px; margin-top:-230px; z-index:2; background:rgba(0,0,0,0.4); padding:0 40px;}
+
+body.loginPage .amb_admin_layout_temp_01 .content.loginStyle05 .loginDetail h1 {display:none; text-align:left; background:transparent;  border:none; padding:0px 0 30px; color:#fff;  z-index:2;}
+body.loginPage .amb_admin_layout_temp_01 .content.loginStyle05 .loginDetail h1 .title {font-size:32px; opacity:1.0; font-weight:normal;}
+body.loginPage .amb_admin_layout_temp_01 .content.loginStyle05 .loginDetail .contText {display:none; color:#fff; font-size:14px; line-height:1.8em; margin-top:40px; opacity:0.9; font-weight:100; z-index:2;}
+body.loginPage .amb_admin_layout_temp_01 .content.loginStyle05 .loginDetail .canvasBg {position:absolute; width:100%; height:100%; z-index:0; top:0; left:0; opacity:0.8; overflow:hidden;}
+
+body.loginPage .amb_admin_layout_temp_01 .content.loginStyle05 .loginPage h1 {text-align:left; background:transparent;  border:none; padding:35px 0 30px;}
+body.loginPage .amb_admin_layout_temp_01 .content.loginStyle05 .loginPage h1 span.title,
+body.loginPage .amb_admin_layout_temp_01 .content.loginStyle05 .loginPage h1 span.ex {color:#fff; opacity:0.8;}
+body.loginPage .amb_admin_layout_temp_01 .content.loginStyle05 .loginPage h1 span.title {font-size:28px; opacity:1.0;}
+body.loginPage .amb_admin_layout_temp_01 .content.loginStyle05 .loginPage .loginBox {border-radius:0px; margin-top:0; background:transparent;  border:none; padding:30px 0;}
+body.loginPage .amb_admin_layout_temp_01 .content.loginStyle05 .loginPage .loginBox .loginSetting a.underline {color:#ddd;}
+body.loginPage .amb_admin_layout_temp_01 .content.loginStyle05 .loginPage .copyright  {text-align:left; opacity:0.3; color:#fff;}
+body.loginPage .amb_admin_layout_temp_01 .content.loginStyle05 .loginPage .loginBox input.id,
+body.loginPage .amb_admin_layout_temp_01 .content.loginStyle05 .loginPage .loginBox input.pw {}
+body.loginPage .amb_admin_layout_temp_01 .content.loginStyle05 .loginPage .loginBox input.id:hover,
+body.loginPage .amb_admin_layout_temp_01 .content.loginStyle05 .loginPage .loginBox input.pw:hover {}
+body.loginPage .amb_admin_layout_temp_01 .content.loginStyle05 .loginPage .loginBox input.id:focus,
+body.loginPage .amb_admin_layout_temp_01 .content.loginStyle05 .loginPage .loginBox input.pw:focus {background:#fff; outline:none; opacity:1.0;}
+
+body.loginPage .amb_admin_layout_temp_01 .content.loginStyle05 .loginPage .selectLang {margin:-15px 0 -10px 0;}
+body.loginPage .amb_admin_layout_temp_01 .content.loginStyle05 .loginPage .selectLang .amb_btnstyle {opacity:1.0; background:rgba(0,0,0,0.4); float:left; width:33.3%; height:auto; line-height:18px; font-size:15px; padding:10px 30px !important; color:rgba(255,255,255,0.4); border-radius:3px;}
+body.loginPage .amb_admin_layout_temp_01 .content.loginStyle05 .loginPage .selectLang .amb_btnstyle.active {opacity:1.0; background:rgba(0,0,0,0.6); color:rgba(255,255,255,1.0); font-weight:400; border-color:rgba(255,255,255,0.2);}
+
+
+
+/* login style04 */
+body.loginPage .amb_admin_layout_temp_01 .content.loginStyle_ncomz {min-width:900px; background:#000; margin:0 !important;}
+
+body.loginPage .amb_admin_layout_temp_01 .content.loginStyle_ncomz .loginBgBox {display:block; position:absolute; z-index:-1;  width:100%; height:100%;}
+body.loginPage .amb_admin_layout_temp_01 .content.loginStyle_ncomz .loginBg    {display:block; position:absolute; z-index:0; width:100%; height:100%; background-repeat:no-repeat; background-position:center center; background-size:cover; }
+body.loginPage .amb_admin_layout_temp_01 .content.loginStyle_ncomz .loginBg.bg01 {background:#000; }
+body.loginPage .amb_admin_layout_temp_01 .content.loginStyle_ncomz .loginBg.bg02 {background:#171335; }
+body.loginPage .amb_admin_layout_temp_01 .content.loginStyle_ncomz .loginBg.bg03 {background:#340f26; }
+body.loginPage .amb_admin_layout_temp_01 .content.loginStyle_ncomz .bgGradient {display:block;  position:fixed; z-index:0; width:100%; height:100%; opacity:0.4; z-index:1;} 
+
+body.loginPage .amb_admin_layout_temp_01 .content.loginStyle_ncomz .loginDetail{width:50%; float:left; height:100%; padding:100px 150px 100px 140px; z-index:2; position:relative;}
+body.loginPage .amb_admin_layout_temp_01 .content.loginStyle_ncomz .loginPage  {width:50%; float:right; min-width:300px; height:100%; z-index:2; position:relative; left:auto; top:0; right:0; margin:0 0 0 0 !important; background:rgba(0,0,0,0.4); padding:60px 120px;}
+
+body.loginPage .amb_admin_layout_temp_01 .content.loginStyle_ncomz .loginDetail h1 {text-align:left; background:transparent;  border:none; padding:0px 0 30px; color:#fff;}
+body.loginPage .amb_admin_layout_temp_01 .content.loginStyle_ncomz .loginDetail h1 .title {font-size:32px; opacity:1.0; font-weight:normal;}
+body.loginPage .amb_admin_layout_temp_01 .content.loginStyle_ncomz .loginDetail .contText {color:#fff; font-size:14px; line-height:1.8em; margin-top:40px; opacity:0.9; font-weight:100; z-index:2;}
+body.loginPage .amb_admin_layout_temp_01 .content.loginStyle_ncomz .loginDetail .canvasBg {position:fixed; width:100%; height:100%; z-index:0; top:0; left:0; opacity:0.6; overflow:hidden;}
+
+
+body.loginPage .amb_admin_layout_temp_01 .content.loginStyle_ncomz .loginPage {display:inline-table; }
+body.loginPage .amb_admin_layout_temp_01 .content.loginStyle_ncomz .loginPage .loginPageBox {display:table-cell; text-align:center; height:100%; vertical-align:middle; padding:0 40px; }
+
+body.loginPage .amb_admin_layout_temp_01 .content.loginStyle_ncomz .loginPage .loginPageBox h1,
+body.loginPage .amb_admin_layout_temp_01 .content.loginStyle_ncomz .loginPage .loginPageBox .loginBox,
+body.loginPage .amb_admin_layout_temp_01 .content.loginStyle_ncomz .loginPage .loginPageBox .copyright {max-width:400px; margin-left:auto; margin-right:auto;}
+body.loginPage .amb_admin_layout_temp_01 .content.loginStyle_ncomz .loginPage h1 {text-align:left; background:transparent;  border:none; padding:35px 0 10px;}
+body.loginPage .amb_admin_layout_temp_01 .content.loginStyle_ncomz .loginPage h1 span.title,
+body.loginPage .amb_admin_layout_temp_01 .content.loginStyle_ncomz .loginPage h1 span.ex {color:#fff; opacity:0.8;}
+body.loginPage .amb_admin_layout_temp_01 .content.loginStyle_ncomz .loginPage h1 span.title {font-size:36px; opacity:1.0;}
+body.loginPage .amb_admin_layout_temp_01 .content.loginStyle_ncomz .loginPage h1 .ex {color:#fff; opacity:0.8; font-size:18px;}
+body.loginPage .amb_admin_layout_temp_01 .content.loginStyle_ncomz .loginPage .loginBox {border-radius:0px; margin-top:0; background:transparent;  border:none; padding:30px 0;}
+body.loginPage .amb_admin_layout_temp_01 .content.loginStyle_ncomz .loginPage .loginBox .loginSetting a.underline {color:#ddd;}
+body.loginPage .amb_admin_layout_temp_01 .content.loginStyle_ncomz .loginPage .copyright  {text-align:left; opacity:0.3; color:#fff;}
+body.loginPage .amb_admin_layout_temp_01 .content.loginStyle_ncomz .loginPage .loginBox input.id,
+body.loginPage .amb_admin_layout_temp_01 .content.loginStyle_ncomz .loginPage .loginBox input.pw {background:rgba(0,0,0,0.3); border-color:rgba(0,179,254,0.7);}
+body.loginPage .amb_admin_layout_temp_01 .content.loginStyle_ncomz .loginPage .loginBox input.id:hover,
+body.loginPage .amb_admin_layout_temp_01 .content.loginStyle_ncomz .loginPage .loginBox input.pw:hover {}
+body.loginPage .amb_admin_layout_temp_01 .content.loginStyle_ncomz .loginPage .loginBox input.id:focus,
+body.loginPage .amb_admin_layout_temp_01 .content.loginStyle_ncomz .loginPage .loginBox input.pw:focus {background:#fff; outline:none; opacity:1.0;}
+
+body.loginPage .amb_admin_layout_temp_01 .content.loginStyle_ncomz .loginPage .loginBox .loginBtn {margin-top:50px;}
+
+body.loginPage .amb_admin_layout_temp_01 .content.loginStyle_ncomz .loginPage .selectLang {margin:0px 0 -10px 0;}
+body.loginPage .amb_admin_layout_temp_01 .content.loginStyle_ncomz .loginPage .selectLang .amb_btnstyle {opacity:1.0; background:rgba(0,0,0,0.4); float:none; height:auto; line-height:18px; font-size:15px; padding:12px 30px !important; color:rgba(255,255,255,0.4); border-radius:3px;}
+body.loginPage .amb_admin_layout_temp_01 .content.loginStyle_ncomz .loginPage .selectLang .amb_btnstyle.active {opacity:1.0; background:rgba(0,0,0,0.6); color:rgba(255,255,255,1.0); font-weight:400; border-color:rgba(255,255,255,0.2);}
+
+/* 1024 까지 */
+@media only screen and (max-width: 1120px) {
+
+	body.loginPage .amb_admin_layout_temp_01 .content.loginStyle_ncomz {min-width:320px;}
+	body.loginPage .amb_admin_layout_temp_01 .content.loginStyle_ncomz .loginPage .loginPageBox {padding:0 0px; }
+	body.loginPage .amb_admin_layout_temp_01 .content.loginStyle_ncomz, 
+	body.loginPage.minNav .amb_admin_layout_temp_01 .content.loginStyle_ncomz {padding:0; overflow:hidden;}
+
+	
+}
+
+/* 600 까지 */
+@media only screen and (max-width: 980px) {
+
+	body.loginPage .amb_admin_layout_temp_01 .content.loginStyle_ncomz .loginPage {padding:50px 80px;}
+
+}
+
+@media only screen and (max-width: 768px) {
+	body.loginPage, 
+	body.loginPage .amb_admin_layout_temp_01 {min-width:320px;}
+	body.loginPage .amb_admin_layout_temp_01 .content.loginStyle_ncomz, 
+	body.loginPage.minNav .amb_admin_layout_temp_01 .content.loginStyle_ncomz {padding:0; overflow:auto;}
+
+	body.loginPage .amb_admin_layout_temp_01 .content.loginStyle_ncomz .loginPage,
+	body.loginPage .amb_admin_layout_temp_01 .content.loginStyle_ncomz .loginDetail {padding:40px 60px; min-width:0;}
+	body.loginPage .amb_admin_layout_temp_01 .content.loginStyle_ncomz .loginDetail {width:100%; float:none; height:400px; padding:0; z-index:2;}
+	body.loginPage .amb_admin_layout_temp_01 .content.loginStyle_ncomz .loginPage   {width:100%; float:none; height:600px;}
+
+	body.loginPage .content.loginStyle_ncomz::-webkit-scrollbar-track {background-color:#ffffff;}
+	body.loginPage .content.loginStyle_ncomz::-webkit-scrollbar-track:horizontal {border-top:1px solid #ffffff;}
+	body.loginPage .content.loginStyle_ncomz::-webkit-scrollbar-thumb {background-color:rgba(0,0,0,0.5); }
+	body.loginPage .content.loginStyle_ncomz::-webkit-scrollbar-thumb:hover {background-color:rgba(0,0,0,0.8);}
+
+
+}
+

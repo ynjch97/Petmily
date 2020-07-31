@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+ <!DOCTYPE mapper
+ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+ "http://www.mybatis.org/dtd/mybatis-3-mapper.dtd">
+ <mapper namespace="com.ynjch.petmily.mapper.user.UserMapper">
+
+	<!-- 사용자 목록 조회 -->
+	<!-- com.ynjch.petmily.vo.user.User / java.util.LinkedHashMap -->
+	<select id="getUserList" resultType="java.util.LinkedHashMap">
+		SELECT 
+		    user_id
+		    ,user_nm
+		    ,user_nick
+		    ,CONCAT(user_sido, ' ', user_sgg, ' ', user_umd, ' ', user_addr) as user_full_addr
+		   <!--  ,join_dt -->
+		FROM PM_USER_INFO
+		ORDER BY join_dt;
+	</select>
+	
+ </mapper>

@@ -1,0 +1,101 @@
+@charset "UTF-8";
+
+/** @AMB common  V 0.9.9 | @AMB Design -  @mo @shjoo @lhjoo **/
+
+
+/* 1024 까지 */
+@media only screen and (min-width: 1025px) {
+
+.amb_admin_layout_temp_01 .nav_aside {}
+
+}
+
+
+/* ipad 가로 사이즈 */
+@media only screen and (max-width: 1024px) {
+
+.amb_admin_layout_temp_01 .header, 
+.amb_admin_layout_temp_01 .contentWrap, 
+.amb_admin_layout_temp_01 .footer {min-width:320px;}
+
+.amb_admin_layout_temp_01 .content {margin-left:60px; padding:10px 30px 30px}
+
+.amb_admin_layout_temp_01 .content .searchBox {padding:8px 10px;}
+.amb_admin_layout_temp_01 .content .searchBox table.amb_form_table {width:100%;}
+.amb_admin_layout_temp_01 .content .searchBox .searchFormBtn {position:relative; width:100%; text-align:right; bottom:0; right:0; margin-top:5px;}
+
+.amb_admin_layout_temp_01 .content h3 {clear:both; height:auto; min-height:auto; margin-bottom:8px;}
+
+.amb_admin_layout_temp_01 .content h3 span.title {line-height:100%; height:auto;}
+
+.amb_layout_common .g_column {padding-right:0;}
+.amb_layout_common .w_2_1,
+.amb_layout_common .w_3_1,
+.amb_layout_common .w_3_2,
+.amb_layout_common .w_4_1,
+.amb_layout_common .w_4_2,
+.amb_layout_common .w_4_3,
+.amb_layout_common .w_5_1,
+.amb_layout_common .w_5_2,
+.amb_layout_common .w_5_3,
+.amb_layout_common .w_5_4 {width:100%; }
+
+.amb_layout_common .g_column + .g_column {margin-top:30px;}
+
+}
+
+/* ipad 가로 사이즈 */
+@media only screen and (max-width: 960px) {
+}
+
+
+/* ipad 세로 사이즈 */
+@media only screen and (max-width: 768px) {
+
+.amb_admin_layout_temp_01 .header, 
+.amb_admin_layout_temp_01 .contentWrap, 
+.amb_admin_layout_temp_01 .footer {min-width:320px;}
+
+body .amb_admin_layout_temp_01 .content,
+body.minNav .amb_admin_layout_temp_01 .content{margin-left:0; padding:10px 15px 20px;}
+
+.amb_admin_layout_temp_01 .header h1 {min-width:auto; padding-left:20px;}
+.amb_admin_layout_temp_01 .header .loginInfo>div {margin-left:15px; }
+
+.amb_admin_layout_temp_01 .header .loginInfo div.dropDownBox.setting > a span,
+.amb_admin_layout_temp_01 .header .loginInfo div.logout > a span{display:none;}
+
+.amb_admin_layout_temp_01 .nav_aside.close {width:100%; display:none;}
+.amb_admin_layout_temp_01 .nav_aside {}
+
+.amb_admin_layout_temp_01 .content h2 {height:auto; padding-top:10px; padding-bottom:5px;}
+.amb_admin_layout_temp_01 .content h2 .location {display:none;}
+
+.amb_admin_layout_temp_01 .content h2 + .mgT30 {margin-top:20px !important;}
+
+
+.amb_admin_layout_temp_01 .content table tr th, 
+.amb_admin_layout_temp_01 .content table tr td {min-width:80px;}
+
+.amb_admin_layout_temp_01 .content .searchBox {padding:8px 8px;}
+.amb_admin_layout_temp_01 .content .searchBox .amb_form_table {table-layout:auto;}
+.amb_admin_layout_temp_01 .content .searchBox .amb_form_table th {min-width:80px;}
+.amb_admin_layout_temp_01 .content .searchBox .searchFormBtn {text-align:;}
+
+.amb_admin_layout_temp_01 .content .searchBox tr {}
+.amb_admin_layout_temp_01 .content .searchBox tr th,
+.amb_admin_layout_temp_01 .content .searchBox tr td {}
+.amb_admin_layout_temp_01 .content .searchBox tr th {}
+.amb_admin_layout_temp_01 .content .searchBox tr td {}
+
+.amb_admin_layout_temp_01 label.inp_func {margin:2px 0;}
+
+.amb_admin_layout_temp_01 .content table.amb_form_table.lineAll {table-layout:auto;}
+table.amb_table {table-layout:auto;}
+
+.amb_admin_layout_temp_01 .content table.amb_form_table td .inTableBox {overflow:auto;}
+.amb_admin_layout_temp_01 .content table .inTableBox .inputList {overflow:;}
+
+
+
+}

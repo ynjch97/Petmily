@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+/** @AMB common  V 0.9.9 | @AMB Design -  @mo @shjoo @lhjoo **/
+
+@import url('/css/plugins/jquery-ui.css');
+@import url('/css/plugins/sweetalert.css');
+@import url('/css/plugins/bootstrap.css');
+@import url('/css/plugins/datepicker3.css');
+
+@import url('/css/amb_reset.css');
+@import url('/css/amb_common.css');
+@import url('/css/amb_button.css');
+@import url('/css/amb_table.css');
+@import url('/css/amb_iconfont.css');
+@import url('/css/amb_iconfont_gnb.css');
+
+@import url('/css/amb_loading.css');              /** 로딩 관련 css모음 **/
+@import url('/css/amb_login.css');                /** login 관련 css모음 **/
+
+@import url('/css/amb_admin_layout_temp_01_m.css'); /** mobile 대응 reposive **/

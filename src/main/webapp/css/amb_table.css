@@ -1,0 +1,75 @@
+@charset "UTF-8";
+
+/** @Ncomz amb_table  V 0.7.1 | @Ncomz Design -  @mo @joo **/
+
+/********** amb_table **********/
+table.amb_table {table-layout:fixed; width:100%; text-align:center;} /* 기본 설정 text-align은 center를 기본으로 함 */
+table.amb_form_table {table-layout:fixed; width:100%; text-align:center;}
+
+
+/* text 정렬 */
+table.amb_table .center,
+table.amb_form_table .center{text-align:center !important;}
+table.amb_table .left,
+table.amb_form_table .left  {text-align:left !important;}
+table.amb_table .right,
+table.amb_form_table .right {text-align:right !important;}
+
+
+/* 라인 스타일 */
+table.amb_table,
+table.amb_form_table {border-width:1px; border-style:none none none solid;}
+table.amb_table th,
+table.amb_table td,
+table.amb_form_table th,
+table.amb_form_table td {border-width:1px; border-style:solid solid solid none;}
+
+
+/* 라인컬러 // 필요한 컬러로 수정 및 추가 합니다 */
+table.amb_table,
+table.amb_table tr,
+table.amb_table th,
+table.amb_table td,
+table.amb_form_table,
+table.amb_form_table tr,
+table.amb_form_table th,
+table.amb_form_table td {border-color:#d1d1d1 #d1d1d1 #d1d1d1 #d1d1d1;}
+
+
+
+/* amb_form_table th 기본 좌정렬 */
+table.amb_form_table th {text-align:left;}
+
+/* th background 컬러 // 필요한 컬러로 수정 및 추가 합니다 */
+table.amb_table th {background-color:#f2f4f6;}
+table.amb_table th.blustyle {background-color:#e5f5fc;border-color:#94cee7;}
+
+/* 홀수 짝수 tr배경 필요시 예제 */
+table.amb_table.odd_gray tbody tr:nth-child(odd) {background-color:#f9f9f9;}
+table.amb_table.even_gray tbody tr:nth-child(even) {background-color:#f9f9f9;}
+
+
+/* 라인 간격 // 필요한 간격은 수정합니다 */
+table.amb_table th,
+table.amb_table td {padding:4px 8px 4px 8px;}
+
+table.amb_form_table th,
+table.amb_form_table td {padding:4px 8px 4px 8px;}
+
+table.amb_form_table td {text-align:left;}
+table.amb_form_table td input[type=text] {width:80%;}
+table.amb_form_table td textarea {width:80%;}
+
+
+/* 말줄임 */
+table.amb_table .ellipsis {overflow:hidden; text-overflow:ellipsis;white-space:nowrap;word-wrap:normal}
+
+/* tr 마우스 오버 효과 */
+table.amb_table tbody tr:hover {background:#e6f7f3;}
+
+/* 내려쓰기 */
+table.amb_table th,
+table.amb_table td,
+table.amb_form_table th,
+table.amb_form_table td {word-break:break-all;}
+

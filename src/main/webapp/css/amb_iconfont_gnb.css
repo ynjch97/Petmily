@@ -1,0 +1,92 @@
+@font-face {
+  font-family: 'AMB_GNBicon';
+  src:  url('../webfont/AMB_GNBicon.eot?hvmygq');
+  src:  url('../webfont/AMB_GNBicon.eot?hvmygq#iefix') format('embedded-opentype'),
+    url('../webfont/AMB_GNBicon.ttf?hvmygq') format('truetype'),
+    url('../webfont/AMB_GNBicon.woff?hvmygq') format('woff'),
+    url('../webfont/AMB_GNBicon.svg?hvmygq#AMB_GNBicon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="ambGicon-"], [class*=" ambGicon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'AMB_GNBicon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.ambGicon-g_basic:before {
+  content: "\e900";
+}
+.ambGicon-g_gauge:before {
+  content: "\e901";
+}
+.ambGicon-g_phone:before {
+  content: "\e902";
+}
+.ambGicon-g_product:before {
+  content: "\e903";
+}
+.ambGicon-g_invoice:before {
+  content: "\e904";
+}
+.ambGicon-g_card:before {
+  content: "\e905";
+}
+.ambGicon-g_chat:before {
+  content: "\e906";
+}
+.ambGicon-g_letter:before {
+  content: "\e907";
+}
+.ambGicon-g_man_01:before {
+  content: "\e908";
+}
+.ambGicon-g_man_02:before {
+  content: "\e909";
+}
+.ambGicon-g_notebook:before {
+  content: "\e90a";
+}
+.ambGicon-g_notephone:before {
+  content: "\e90b";
+}
+.ambGicon-g_picture:before {
+  content: "\e90c";
+}
+.ambGicon-g_basket:before {
+  content: "\e90d";
+}
+.ambGicon-g_calenda:before {
+  content: "\e90e";
+}
+.ambGicon-g_print:before {
+  content: "\e90f";
+}
+.ambGicon-g_usb:before {
+  content: "\e910";
+}
+.ambGicon-g_cal:before {
+  content: "\e911";
+}
+.ambGicon-g_out:before {
+  content: "\e912";
+}
+.ambGicon-g_reg:before {
+  content: "\e913";
+}
+.ambGicon-g_setting:before {
+  content: "\e914";
+}
+.ambGicon-g_notice:before {
+  content: "\e915";
+}
