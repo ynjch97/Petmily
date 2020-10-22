@@ -60,3 +60,4 @@ public class UserControllor {
 
 // git checkout test /src/main/java/com/ynjch/petmily/controller/user/UserControllor.java 테스트를 위해 test 브랜치에만 
 // 다시 테스트 (test 브랜치에서 수정)
+// git cherry-pick 테스트를 위해 test 브랜치에만 수정
