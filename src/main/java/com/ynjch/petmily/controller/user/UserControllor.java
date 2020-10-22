@@ -57,3 +57,5 @@ public class UserControllor {
 // MASTER 에서 수정함
 // test 브랜치에서 수정함
 // test 브랜치에서 두 번째 수정 - 그 후 MASTER 에서 수정이 push 된 뒤의 test 브랜치의 수정임  
+
+// git checkout test /src/main/java/com/ynjch/petmily/controller/user/UserControllor.java 테스트를 위해 test 브랜치에만 
